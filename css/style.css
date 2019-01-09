@@ -1,0 +1,147 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+p, ol, ul, li, h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    font-size: 7.5rem;
+    font-weight: bold;
+}
+h2 {
+    font-size: 1.25rem;
+    font-weight: 100;
+}
+.header {
+    width: 100%;
+    height: calc(200/1900*100%);
+    z-index: 1111;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    width: 138px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+}
+.nav {
+    display: flex;
+    align-items: center;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    height: calc(1700*100%);
+}
+.main {
+    display: flex;
+    position: relative;
+    max-width:100%;
+    overflow: hidden;
+    padding-bottom: calc(9/16*100%);
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.main_t {
+    padding-top: calc(354/1900*100%);
+    z-index: 1111;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+img {
+    display: flex;
+}
+
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    
+}
+ul {
+    display: flex;
+}
+ul>li {
+    display: inline-block;
+    list-style: none;
+}
+.nav>ul>li>a{
+    color: white;
+}
+ul>li>a {
+    margin: 15px; 
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+}
+ul>li>a:hover{
+    color: #22cfd1;
+    font-weight: bold;
+}
+.sub {
+    position: relative;
+    width: 100%;
+    height: calc(950/1900*100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+.sub_t {
+    text-align: center;
+    padding-top: calc(100/1700*100%);
+    display: flex;
+    align-content: center;
+    width: 730px;
+    height: 100px;
+}
+
+.sub_img {
+    flex-direction: column;
+    height: auto;
+    display: flex;
+    padding-top: calc(100/1700*100%);
+}
+.sub_img2 {
+    padding-top: calc(150/1900*100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 11;
+    width: 40%;
+    height: auto;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.gray {
+    display: flex;
+    align-items: flex-end;
+    z-index: 1;
+    width: 100%;
+    border: 6px solid #000;
+    height: calc(300/1900*100%);
+    background-color: #eeeff4;
+}
